@@ -1,0 +1,66 @@
+[
+    {
+      "id": 1,
+      "nombre": "Heineken Pack x 12",
+      "precio": 3750,
+      "categoria": "Cerveza Rubia",
+      "img":"img/cervezas/heineken_12.png"
+    },
+    {
+      "id": 2,
+      "nombre": "Budweiser Pack x 12",
+      "precio": 2440,
+      "categoria": "Cerveza Rubia",
+      "img":"img/cervezas/budwaiser_12.png"
+    },
+    {
+      "id": 3,
+      "nombre": "Corona Pack x 12",
+      "precio": 5904,
+      "categoria": "Cerveza Rubia",
+      "img":"img/cervezas/corona_12.png"
+    },
+    {
+      "id": 4,
+      "nombre": "Patagonia Pack x 12",
+      "precio": 3600,
+      "categoria": "Cerveza Oscura",
+      "img":"img/cervezas/patagonia_12.png"
+    },
+    {
+      "id": 5,
+      "nombre": "Schneider Pack x 12",
+      "precio": 2112,
+      "categoria": "Cerveza Rubia",
+      "img":"img/cervezas/schneider_12.png"
+    },
+    {
+      "id": 6,
+      "nombre": "Guinnes Pack x 12",
+      "precio": 4284,
+      "categoria": "Cerveza Oscura",
+      "img":"img/cervezas/guiness_12.png"
+    },
+    {
+      "id": 7,
+      "nombre": "Blue Moon Pack x 12",
+      "precio": 5599,
+      "categoria": "Cerveza Rubia",
+      "img":"img/cervezas/bluemoon_12.png"
+    },
+    {
+      "id": 8,
+      "nombre": "Modelo Pack x 12",
+      "precio": 6300,
+      "categoria": "Cerveza Rubia",
+      "img":"img/cervezas/modelo_12.png"
+    },
+    {
+      "id": 9,
+      "nombre": "Lite Pack x 12",
+      "precio": 6500,
+      "categoria": "Cerveza Rubia",
+      "img":"img/cervezas/lite_12.png"
+      
+    }
+]

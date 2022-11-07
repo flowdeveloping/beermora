@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="../img/FaviconBEER.svg" type="image/x-icon" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <!-- Font Awesome JS -->
+    <script src="https://kit.fontawesome.com/6f743b58b1.js" crossorigin="anonymous"></script>
+
+    <!-- Css -->
+
+    <link rel="stylesheet" href="../css/style.css" />
+
+    <title>BeerMora</title>
+  </head>
+
+  <body>
+    <!-------------------------NAV-------------------->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="../img/BEERMORALOGO.svg" alt="" /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Home</a>
+            </li>
+            <!-- <li class="nav-item">
+            <a class="nav-link" href="nosotros.html">Nosotros</a>
+          </li> -->
+            <li class="nav-item active">
+              <a class="nav-link active" aria-current="page" href="cervezas.html">Cervezas</a>
+            </li>
+            <!-- <li class="nav-item">
+            <a class="nav-link" href="franquicias.html">Franquicias</a>
+          </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contáctanos</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!---------- DETALLES DE LO COMPRADO ---------->
+    <section class="mb-3 proxRecitales container">
+      <h2 class="col-12 text-center titulo">Compra Finalizada!</h2>
+
+      <!-- Detalles del comprador -->
+      <p>Detalle de lo adquirido:</p>
+      <div id="comprador">
+        <h3>Detalles del comprador:</h3>
+        <ul class="list-group list-group-flush" id="datosPersona"></ul>
+      </div>
+
+      <section class="carrito container">
+        <h2 class="text-center">Detalle de la compra</h2>
+        <div>
+          <table class="table">
+            <thead class="table-dark">
+              <tr>
+                <th scope="col">Productos</th>
+                <th scope="col">Detalle</th>
+                <th scope="col">Precio</th>
+              </tr>
+            </thead>
+            <tbody id="div-cart"></tbody>
+          </table>
+          <div class="finalizarCompra">
+            <h3 class="precioFinal titulo" id="total"></h3>
+            <button type="button" class="btn btn-success boton-finalizar" id="btnGracias">Gracias</button>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <!--FOOTER-->
+    <div class="footer-dark">
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col item social">
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-snapchat"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+          </div>
+          <p class="copyright">Diseño web | Jimena Nieto</p>
+        </div>
+      </footer>
+    </div>
+
+    <!--------------------SCRIPT----------------------->
+    <script src="../js/checkout.js"></script>
+
+    <!-- script SweetAlert -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
