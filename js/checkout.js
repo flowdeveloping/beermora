@@ -30,7 +30,7 @@ function renderCart() {
 }
 renderCart();
 
-/* Boton Gracias */
+/* Boton Gracias 😁 */
 let btnFin = document.getElementById('btnGracias');
 btnFin.addEventListener('click', finalizar);
 

@@ -102,7 +102,7 @@ renderProductos();
 renderCart();
 calcPrecioTotal();
 
-/* Finalizar Compra */
+/* Finalizo Compra 💕 */
 let btnFinCompra = document.getElementById('finCompra');
 btnFinCompra.addEventListener('click', finCompra);
 function finCompra() {
@@ -114,7 +114,7 @@ function finCompra() {
       text: 'no puedes finalizar compra si el carrito está vacío',
     });
   } else {
-    /* obtiene valores de los input */
+    /* Obtengo valores de los input 🤞 */
     emailInput = document.getElementById('email').value;
     nombreInput = document.getElementById('nombre').value;
     apellidoInput = document.getElementById('apellido').value;
